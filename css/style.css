@@ -403,6 +403,10 @@ nav a:hover {
     -o-border-radius: 6px;
 }
 
+.download-app {
+    padding-bottom: 160px !important;
+}
+
 .download-app h3 {
     font-family: var(--font-primary);
     font-size: 35px;
@@ -420,19 +424,35 @@ nav a:hover {
 }
 
 .footer {
-    padding-top: 70px;
+    padding-top: 180px;
     background-color: #232233;
 }
 
-.footer .row {
+.footer .contact {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 0 10px 100px 0 #0000003D;
+    top: -270px;
+}
+
+.footer .contact h4 {
+    font-family: var(--font-secondary);
+    color: #232233;
+    font-size: 28px;
+}
+
+.footer .row.info {
     border-bottom: 1px solid #fff;
 }
 
-.footer h4.tammy {
+.footer .info h4.tammy {
     font-family: var(--font-secondary);
 }
 
-.footer h4 {
+.footer .info h4 {
     font-family: var(--font-primary);
     font-size: 25px;
 }
@@ -449,7 +469,6 @@ nav a:hover {
 
 .footer .input-send {
     height: 50px;
-
 }
 
 .footer .input-send input {
