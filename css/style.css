@@ -38,11 +38,10 @@ header .tammy {
     font-size: 32px;
 }
 
-header .tammy::after {
+.tammy::after {
     content: " Food";
     color: var(--color-primary);
 }
-
 
 @media (max-width:992px) {
     nav.active {
@@ -59,7 +58,6 @@ header .tammy::after {
         padding: 100px 0;
     }
 }
-
 
 nav i {
     top: 20px;
@@ -161,6 +159,12 @@ nav a:hover {
     transform: translateY(-50%);
     width: 700px;
     right: -121px;
+}
+
+@media (min-width:1540px) {
+    .home img {
+        right: -140px;
+    }
 }
 
 .work {
@@ -349,7 +353,6 @@ nav a:hover {
 }
 
 .target img {
-    /* max-width: 100%; */
     left: 0;
     top: 50%;
     transform: translateY(-50%);
@@ -398,4 +401,75 @@ nav a:hover {
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
+}
+
+.download-app h3 {
+    font-family: var(--font-primary);
+    font-size: 35px;
+    line-height: 47px;
+}
+
+.download-app p {
+    font-family: var(--font-secondary);
+    color: #667085;
+    line-height: 32px;
+}
+
+.download-app .app {
+    max-width: 500px;
+}
+
+.footer {
+    padding-top: 70px;
+    background-color: #232233;
+}
+
+.footer .row {
+    border-bottom: 1px solid #fff;
+}
+
+.footer h4.tammy {
+    font-family: var(--font-secondary);
+}
+
+.footer h4 {
+    font-family: var(--font-primary);
+    font-size: 25px;
+}
+
+.footer-info p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.social-icon img:not(:last-child)::after {
+    content: "";
+    position: absolute;
+}
+
+.footer .input-send {
+    height: 50px;
+
+}
+
+.footer .input-send input {
+    outline: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.footer .input-send img {
+    background-color: #FEB918;
+    object-fit: none;
+    top: 2px;
+    right: 2px;
+    height: 46px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
